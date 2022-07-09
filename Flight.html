@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="FlightStyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Flights - Search List</h1>
+      <div class="home">
+        <span class="text">Home / Flight Search List</span>
+      </div>
+    </header>
+    <article style="padding-bottom: 30px">
+      <form class="switch">
+        <p><input type="radio" value="One Way" checked /> One Way</p>
+        <p><input type="radio" value="Round Trip" /> Round Trip</p>
+      </form>
+      <form class="infoInput">
+        <input
+          type="text"
+          name="From"
+          placeholder="  From"
+          class="input location"
+        />
+        <input
+          type="text"
+          name="To"
+          placeholder="  To"
+          class="input location"
+        />
+        <input
+          type="text"
+          name="Depart Date"
+          placeholder="  Depart Date"
+          class="input calendar"
+        />
+        <input
+          type="text"
+          name="Return Date"
+          placeholder="  Return Date"
+          class="input calendar"
+        />
+        <select name="Economy Class" class="input inputEconomy">
+          <option value="">First Class</option>
+          <option value="">Business Class</option>
+          <option value="">Economy Class</option>
+        </select>
+        <input type="button" value="Search" class="button1" />
+      </form>
+      <div class="filterDtS">
+        <form class="filter">
+          <section class="sectionFilter">
+            <h2>Filter</h2>
+            <p class="paragraf"><b>No. of Stops</b></p>
+            <ul>
+              <li><input type="checkbox" /> No. of Stops</li>
+              <li><input type="checkbox" />1 Stop</li>
+              <li><input type="checkbox" />2+ Stops</li>
+            </ul>
+            <p class="paragraf"><b>Price</b></p>
+            <div class="minmax">
+              <p>Min:</p>
+              <p>Max:</p>
+            </div>
+            <div class="price">
+              <input
+                type="text"
+                name="0"
+                placeholder="  0"
+                class="inputPrice1"
+              />
+              <p class="dollar">$ -</p>
+              <input
+                type="text"
+                name="1000"
+                placeholder="  1000"
+                class="inputPrice2"
+              />
+              <p class="dollar">$</p>
+            </div>
+            <p class="paragraf"><b>Airlines</b></p>
+            <ul>
+              <li><input type="checkbox" />Asiana Airlines</li>
+              <li><input type="checkbox" />American Airlines</li>
+              <li><input type="checkbox" />Air Canada</li>
+              <li><input type="checkbox" />Air India</li>
+              <li><input type="checkbox" />Jet Airways</li>
+              <li><input type="checkbox" />Spicejet</li>
+              <li><input type="checkbox" />IndiGo</li>
+              <li><input type="checkbox" />Multiple Airlines</li>
+            </ul>
+          </section>
+        </form>
+        <form class="DtS">
+          <section>
+            <h3>Dehli to Sydney</h3>
+            <table>
+              <thead>
+                <tr>
+                  <td class="td">
+                    <p class="p1"><b>Airlines</b></p>
+                  </td>
+                  <td class="td">
+                    <p class="p1"><b>Departure</b></p>
+                  </td>
+                  <td class="td">
+                    <p class="p1"><b>Duration</b></p>
+                  </td>
+                  <td class="td">
+                    <p class="p1"><b>Arrival</b></p>
+                  </td>
+                  <td class="td">
+                    <p class="p1"><b>Price</b></p>
+                  </td>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>
+                    IndiGo <br />
+                    <p class="p3">6E-2489</p>
+                  </td>
+                  <td>
+                    23:30 <br />
+                    <p class="p3">Dehli</p>
+                  </td>
+                  <td>
+                    18h 55m <br />
+                    <p class="p3">Non Stop</p>
+                  </td>
+                  <td>
+                    18:15 <br />
+                    <p class="p3">Sydney</p>
+                  </td>
+                  <td>$980</td>
+                  <td>
+                    <input type="button" value="Book" class="button2" /> <br />
+                    <p class="p2">Flight Details</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    IndiGo <br />
+                    <p class="p3">6E-2489</p>
+                  </td>
+                  <td>
+                    23:30 <br />
+                    <p class="p3">Dehli</p>
+                  </td>
+                  <td>
+                    18h 55m <br />
+                    <p class="p3">Non Stop</p>
+                  </td>
+                  <td>
+                    18:15 <br />
+                    <p class="p3">Sydney</p>
+                  </td>
+                  <td>$980</td>
+                  <td>
+                    <input type="button" value="Book" class="button2" /> <br />
+                    <p class="p2">Flight Details</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    IndiGo <br />
+                    <p class="p3">6E-2489</p>
+                  </td>
+                  <td>
+                    23:30 <br />
+                    <p class="p3">Dehli</p>
+                  </td>
+                  <td>
+                    18h 55m <br />
+                    <p class="p3">Non Stop</p>
+                  </td>
+                  <td>
+                    18:15 <br />
+                    <p class="p3">Sydney</p>
+                  </td>
+                  <td>$980</td>
+                  <td>
+                    <input type="button" value="Book" class="button2" /> <br />
+                    <p class="p2">Flight Details</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    IndiGo <br />
+                    <p class="p3">6E-2489</p>
+                  </td>
+                  <td>
+                    23:30 <br />
+                    <p class="p3">Dehli</p>
+                  </td>
+                  <td>
+                    18h 55m <br />
+                    <p class="p3">Non Stop</p>
+                  </td>
+                  <td>
+                    18:15 <br />
+                    <p class="p3">Sydney</p>
+                  </td>
+                  <td>$980</td>
+                  <td>
+                    <input type="button" value="Book" class="button2" /> <br />
+                    <p class="p2">Flight Details</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    IndiGo <br />
+                    <p class="p3">6E-2489</p>
+                  </td>
+                  <td>
+                    23:30 <br />
+                    <p class="p3">Dehli</p>
+                  </td>
+                  <td>
+                    18h 55m <br />
+                    <p class="p3">Non Stop</p>
+                  </td>
+                  <td>
+                    18:15 <br />
+                    <p class="p3">Sydney</p>
+                  </td>
+                  <td>$980</td>
+                  <td>
+                    <input type="button" value="Book" class="button2" /> <br />
+                    <p class="p2">Flight Details</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    IndiGo <br />
+                    <p class="p3">6E-2489</p>
+                  </td>
+                  <td>
+                    23:30 <br />
+                    <p class="p3">Dehli</p>
+                  </td>
+                  <td>
+                    18h 55m <br />
+                    <p class="p3">Non Stop</p>
+                  </td>
+                  <td>
+                    18:15 <br />
+                    <p class="p3">Sydney</p>
+                  </td>
+                  <td>$980</td>
+                  <td>
+                    <input type="button" value="Book" class="button2" /> <br />
+                    <p class="p2">Flight Details</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </form>
+      </div>
+    </article>
+  </body>
+</html>

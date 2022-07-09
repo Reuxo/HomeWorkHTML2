@@ -1,0 +1,94 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(Ms2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mainBlock {
+  width: 780px;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 22px;
+  padding-right: 32px;
+  box-shadow: 0 0 5px 2px rgb(255, 255, 255);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.blockInput {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  padding-bottom: 10px;
+  border-width: 1px;
+}
+.inputAll {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  font-size: 15px;
+  width: 25%;
+  margin-top: 10px;
+}
+.inputFirstName {
+  height: 30px;
+  width: 47%;
+}
+.inputLastName {
+  height: 30px;
+  width: 47%;
+}
+.inputEmail {
+  height: 30px;
+  width: 100%;
+}
+.phone1 {
+  height: 30px;
+  width: 25%;
+}
+.phone2 {
+  height: 30px;
+  width: 25%;
+}
+.phone3 {
+  height: 30px;
+  width: 39%;
+}
+.messageSub {
+  height: 30px;
+  width: 100%;
+}
+.message {
+  height: 80px;
+  width: 100%;
+}
+.button {
+  height: 30px;
+  width: 80%;
+  align-self: flex-end;
+  background: transparent;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0 5px 2px rgb(255, 255, 255);
+}
+placeholder {
+  margin-left: 20px;
+}

@@ -1,0 +1,84 @@
+.form {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(228, 93, 68);
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginForm {
+  width: 60%;
+  background-color: rgb(230, 228, 228);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  background-color: rgb(50, 167, 90);
+  color: aliceblue;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: hidden;
+}
+.href {
+  color: rgb(228, 93, 68);
+  font-size: 10px;
+}
+.parTXT {
+  color: rgb(230, 228, 228);
+}
+.links {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.fbLink {
+  width: 48%;
+  color: white;
+  background-color: rgb(24, 119, 242);
+  background-image: url(facebook.png);
+  background-repeat: no-repeat;
+  background-position: 14%;
+  border-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.tttLink {
+  width: 48%;
+  color: white;
+  background-color: rgb(80, 171, 241);
+  background-image: url(twitter.png);
+  background-repeat: no-repeat;
+  background-position: 23%;
+  border-style: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.form2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+id {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}

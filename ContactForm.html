@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ContactFortmStyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form class="mainBlock">
+      <h1>Contact form</h1>
+      <span
+        >Please fill in your information and we'll be sending you order.</span
+      >
+      <div class="blockInput">
+        <div class="inputAll">
+          <span class="text">Your name</span>
+          <div class="input">
+            <input
+              type="text"
+              name="firstName"
+              placeholder="  first name"
+              class="inputFirstName"
+            />
+            <input
+              type="text"
+              name="lastName"
+              placeholder="  last name"
+              class="inputLastName"
+            />
+          </div>
+        </div>
+        <div class="inputAll">
+          <span class="text">Your email</span>
+          <div class="input">
+            <input
+              type="email"
+              name="email"
+              placeholder="  your_mail@mail.com"
+              class="inputEmail"
+            />
+          </div>
+        </div>
+        <div class="inputAll">
+          <span class="text">Phone *</span>
+          <div class="input">
+            <input type="text" name="000" placeholder="  000" class="phone1" />
+            <input type="text" name="000" placeholder="  000" class="phone2" />
+            <input
+              type="text"
+              name="0000"
+              placeholder="  0000"
+              class="phone3"
+            />
+          </div>
+        </div>
+        <div class="inputAll">
+          <span class="text">Message subject *</span>
+          <div class="input">
+            <select name="message" id="" class="messageSub">
+              <option value="">Work</option>
+              <option value="">Leisure</option>
+              <option value="">Invitation</option>
+              <option value="">Urgent</option>
+              <option value="">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="inputAll">
+          <span class="text">Message *</span>
+          <div class="input">
+            <input type="text" class="message" />
+          </div>
+        </div>
+      </div>
+      <input type="button" value="SUBMIT FORM" class="button" />
+    </form>
+  </body>
+</html>

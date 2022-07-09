@@ -1,0 +1,181 @@
+body {
+  margin: auto;
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+article {
+  padding-bottom: 20px;
+  background-color: rgb(245, 245, 245);
+}
+header {
+  padding: 0px 120px 0px 120px;
+  background-color: rgb(15, 67, 113);
+  color: rgb(255, 255, 255);
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  display: flex;
+  align-items: center;
+}
+.home {
+  display: flex;
+  align-items: center;
+}
+.infoInput {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.button1 {
+  height: 32px;
+  width: 170px;
+  background-color: rgb(15, 67, 113);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border-style: hidden;
+}
+.switch {
+  display: flex;
+}
+.input {
+  height: 30px;
+  width: 155px;
+  margin-right: 20px;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 0 0 5px 2px rgb(231, 210, 210);
+}
+.inputEconomy {
+  height: 32px;
+}
+.location {
+  background: url(location.svg);
+  background-color: rgb(255, 255, 255);
+  background-size: auto 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.calendar {
+  background: url(calendar.svg);
+  background-color: rgb(255, 255, 255);
+  background-size: auto 60%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.filter {
+  margin-bottom: 40px;
+  display: flex;
+  width: 35%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 0 0 5px 2px rgb(231, 210, 210);
+}
+.sectionFilter {
+  padding: 20px;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  margin-left: -40px;
+}
+ul > li::before {
+  display: inline-block;
+  margin-right: 10px;
+  font-family: "Font Awesome 5 Free";
+}
+li {
+  padding-bottom: 5px;
+}
+.inputPrice1 {
+  height: 30px;
+  width: 60px;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 0 0 5px 2px rgb(231, 210, 210);
+}
+.inputPrice2 {
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 0 0 5px 2px rgb(231, 210, 210);
+}
+.minmax {
+  margin-right: 100px;
+  margin-bottom: -20px;
+  display: flex;
+  justify-content: space-between;
+}
+.paragraf {
+  color: rgb(15, 67, 113);
+}
+.dollar {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.filterDtS {
+  display: flex;
+}
+.DtS {
+  display: flex;
+
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: 0 0 5px 2px rgb(231, 210, 210);
+}
+.p1 {
+  color: rgb(15, 67, 113);
+}
+h3 {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+table {
+  border-spacing: 0px 3px;
+  width: 803px;
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+}
+td {
+  padding-top: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.td {
+  padding: 0px;
+  background-color: rgb(245, 245, 245);
+}
+.button2 {
+  height: 35px;
+  width: 80px;
+  background-color: rgb(15, 67, 113);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border-style: hidden;
+}
+.p2 {
+  color: rgb(15, 67, 113);
+  font-size: 12px;
+}
+.p3 {
+  font-size: 12px;
+  color: rgb(195, 179, 179);
+}
+article {
+  padding: 0px 120px 0px 120px;
+  display: flex;
+  flex-direction: column;
+}
